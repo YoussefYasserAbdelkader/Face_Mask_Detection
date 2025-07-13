@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv310/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Model files
+*.h5
+*.pb
+*.onnx
+
+# Logs and outputs
+*.log
+training_plot.png
+
+# Dataset and large files
+dataset/
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python pip and cache
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environment variables
+.env
+
+# Misc
+*.bak
